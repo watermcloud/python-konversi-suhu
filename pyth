@@ -1,0 +1,17 @@
+#Konversi Suhu Dari Frenheit
+
+print("\n Program Konversi Suhu Farenheit\n")
+farenheit = float(input("Input suhu dalam farenheit : "))
+print("Suhu adalah :", farenheit, "Farenheit")
+
+#Celcius
+celcius = (5/9) * (farenheit-32)
+print("Suhu adalah :", celcius, "Celcius")
+
+#Reamur
+reamur = (4/9) * (farenheit-32)
+print("Suhu adalah :", reamur, "Reamur")
+
+#Kelvin
+kelvin = (5/9) * (farenheit-32) + 273
+print("Suhu adalah :", kelvin, "Kelvin")
