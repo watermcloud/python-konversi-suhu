@@ -1,0 +1,18 @@
+#Membuat Program Konversi Suhu
+
+print("\n Membuat Program Konversi Suhu\n")
+
+kelvin = float(input("Masukan suhu dalam kelvin : "))
+print("Suhu adalah : ", kelvin, "Kelvin")
+
+#celcius
+celcius = kelvin - 273
+print("Suhu adalah : ", celcius, "Celcius")
+
+#reamur
+reamur = (4/5) * (kelvin-273)
+print("Suhu adalah : ", reamur, "Reamur")
+
+#Farenheit
+farenheit = (9/5) * (kelvin-273 ) + 32
+print("Suhu adalah : ", farenheit, "Farenheit")
